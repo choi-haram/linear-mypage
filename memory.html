@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/memory.css">
+    <script src="./js/button.js"> </script>
+    <title>haram_memory</title>
+    
+    <!-- <script type="module" src="./js/app.js"></script> -->
+    
+</head>
+<body>
+    <div id="haram">
+        <div class="wrap">
+            <div class="header">    
+                <nav class="navbar">
+                    <ul class="heading">
+                        <li><a href="/index.html">MAIN</a></li>
+                        <li><a href="">PROJECT</a></li>
+                        <li><a href="/memory.html">MEMORY</a></li>
+                        <li><a href="/contact.html">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="slider">
+                <ul>
+                    <button onclick="imageChange2022()"><li>2019</li></button>
+                    <button onclick="imageChange2020()"><li>2020</li></button>
+                    <button onclick="imageChange2021()"><li>2021</li></button>
+                    <button onclick="imageChange2022()"><li>2022</li></button>
+                </ul>
+            </div>
+            <div class="wrap_content">
+                <div class="head_content">기록</div>
+                <div class="main_content">
+                    <div class="first_content" id="first_content">
+                        <img src="/image/2022_05_경주.jpg" id="first_content_img">
+                    </div>
+                    <div class="second_content" id="second_content">
+                        <img src="/image/2022_01_제주.jpeg" id="second_content_img">
+                    </div>
+                    <div class="third_content" id="third_content">
+                        <img src="/image/2022_02_서울.jpg" id="third_content_img">
+                    </div>
+                    <script type="text/javascript" src="./js/imageChange.js"></script>
+                </div> 
+            </div>      
+        </div>
+    </div>
+</body>
+</html>
